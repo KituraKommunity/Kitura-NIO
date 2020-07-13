@@ -30,8 +30,8 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-nio.git", from: "2.8.0"),
         .package(url: "https://github.com/apple/swift-nio-ssl.git", from: "2.0.0"),
         .package(url: "https://github.com/apple/swift-nio-extras.git", from: "1.0.0"),
-        .package(url: "https://github.com/IBM-Swift/BlueSSLService.git", from: "1.0.0"),
-        .package(url: "https://github.com/IBM-Swift/LoggerAPI.git", from: "1.7.3")
+        .package(url: "https://github.com/KituraKommunity/BlueSSLService.git", from: "1.0.100"),
+        .package(url: "https://github.com/KituraKommunity/LoggerAPI.git", from: "1.9.100")
     ],
     targets: [
         .target(
